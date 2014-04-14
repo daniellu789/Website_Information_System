@@ -1,15 +1,18 @@
 Website_Information_System
 ==========================
 Background:
+--------------------------
 There are hundreds of new students from China to University of Florida every year, as a member of Chinese Student Association of UF,
 we try to help these new students smoothly begin their life in United States. Gainesville is a small city and public 
 trasportation is not as good as big cities. We provide free airport pickup service and free temporary housing for new Students
 , so this Information system's purpose is to better communicate with new students with volunteers and managers.
 
 System:
+--------------------------
 This information system provides 3 different users: new student, volunteer and manager.
 
 Function:
+--------------------------
 1. New students fill their basic personal information, flights time and arrive airport, if need temporary housing.
 2. Volunteer can see the information of new students, and they can select certain new students to pick up from airport
    based on new students' flights and other information. But volunteer need to apply it through this system.
@@ -17,12 +20,14 @@ Function:
    of new students or volunteers; manger can rearrange the map relationship between new students and volunteer.
 
 Technology utilized:
+--------------------------
 1. Linus service on Godaddy
 2. MySQL database/Ajax/Php support the back-end of website.
 3. HTML/CSS/Javascript/Jquery support the front-end of website.
 
 
 Setup database:
+--------------------------
 The code do not include the database contants, which used to connect MySQL database.
 There is two files need to set up before use this system, "ROOT\includes\constants.php" and "ROOT\sandbox\includes\constants.php"
 in  following format:
@@ -33,8 +38,6 @@ define("DB_PASS","");
 define("DB_NAME","");
 ?>
 
-
-Databse tables:
 
 Table for new student user:
 
@@ -131,7 +134,7 @@ admin varchar(50),
 PRIMARY KEY (ID)
 );
 
-CREATE TABLE trash_volunteer_beta{} //this table for recovery data by mangers.
+CREATE TABLE trash_volunteer_beta{**same above**} //this table for recovery data by mangers.
 
 Table for manger user:
 
