@@ -1,0 +1,10 @@
+
+<?php
+//database constants
+/*
+
+
+
+
+
+?>
