@@ -4,7 +4,7 @@ Background:
 --------------------------
 There are hundreds of new students from China to University of Florida every year, as a member of Chinese Student Association of UF,
 we try to help these new students smoothly begin their life in United States. Gainesville is a small city and public 
-trasportation is not as good as big cities. We provide free airport pickup service and free temporary housing for new Students
+trasportation is not as good as big cities. We provide free airport pickup service and free temporary accommodation for new Students
 , so this Information system's purpose is to better communicate among new students, volunteers and managers.
 
 System:
